@@ -6,11 +6,22 @@
 header{
     height: 70px;
     background-color: black;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
 }
+button{
+    background-color: #333;
+    color:white;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 0;
+    padding: 7px;
+}
+
 main{
-    height: 800px;
+    height: calc(100vh - 170px);
     background-color: red;
 }
 footer{
@@ -19,13 +30,11 @@ footer{
 }
 
 
-header button{
+.btn{
     background-color: #333;
     color:white;
     border-radius: 5px;
-    padding: 5px;
     margin-right: 5px;
-    margin-top: 22px;
     border: 0;
 }
 .avatar-img{
@@ -36,5 +45,10 @@ header button{
 }
 .gallery-avatar{
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+    overflow-y: auto;
 }
