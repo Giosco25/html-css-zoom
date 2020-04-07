@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    background-color: black;
+    text-align: right;
+
+}
+main{
+    height: 800px;
+    background-color: red;
+}
+footer{
+    height: 100px;
+    background-color: green;
+}
+
+
+header button{
+    background-color: #333;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 22px;
+    border: 0;
+}
+.avatar-img{
+    width:250px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.gallery-avatar{
+    display: flex;
+    flex-wrap:wrap;
+}
